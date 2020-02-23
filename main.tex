@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+\usepackage{thestemp}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{lipsum}
+\usepackage[round]{natbib}
+% figure package
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\title{Senior Project Report}
+
+\author{
+  Hangzhi Guo \\
+  Department of Computer Science\\
+  Wenzhou Kean University\\
+  88 Daxue Rd, Ouhai, Wenzhou, China \\
+  \texttt{guoha@kean.edu} \\
+}
+
+\begin{document}
+    % title page
+    \input{sections/titlepage}
+    \pagebreak
+    
+    % start pages
+    \pagenumbering{roman}
+
+    % abstract page
+    \input{sections/abstract}
+    \pagebreak
+
+    % acknowledge page
+    \input{sections/acknowledge}
+    \pagebreak
+
+    % table of content
+    \tableofcontents
+    \listoffigures
+    \vfill
+    \pagebreak
+
+    \pagenumbering{arabic}
+
+    % Introduction 
+    \input{sections/introduction}
+
+\end{document}
