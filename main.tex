@@ -49,7 +49,74 @@
 
     \pagenumbering{arabic}
 
-    % Introduction 
+    %----------------------------------------------------------------------------------------
+    %	FELL FREE TO ADD OR REMOVE SECTIONS IN DIR ./sections/
+    %----------------------------------------------------------------------------------------
+
+    %----------------------------------------------------------------------------------------
+    %	INTRODUCTION SECTION
+    %----------------------------------------------------------------------------------------
+    \section{Introduction}
     \input{sections/introduction}
+
+    %----------------------------------------------------------------------------------------
+    %	RELATED WORK SECTION
+    %----------------------------------------------------------------------------------------
+    \section{Related Work}
+    \input{sections/related_work}
+
+    %----------------------------------------------------------------------------------------
+    %	SYSTEM REQUIREMENT SECTION
+    %----------------------------------------------------------------------------------------
+    \section{Software/System Requirement}
+    \input{sections/requirements}
+
+    %----------------------------------------------------------------------------------------
+    %	DESIGN SPECIFICATIONS SECTION
+    %----------------------------------------------------------------------------------------
+    \section{Design Specifications}
+    \input{sections/specifications}
+
+    %----------------------------------------------------------------------------------------
+    %	IMPLEMENTATION SECTION
+    %----------------------------------------------------------------------------------------
+    \section{Implementation}
+    \input{sections/implementation}
+
+    %----------------------------------------------------------------------------------------
+    %	SOFTWARE TESTING SECTION
+    %----------------------------------------------------------------------------------------
+    \section{Software Testing}
+    \input{sections/testing}
+    
+    %----------------------------------------------------------------------------------------
+    %	DISCUSSION SECTION
+    %----------------------------------------------------------------------------------------
+    \section{Discussion}
+    \input{sections/discussion}
+
+    %----------------------------------------------------------------------------------------
+    %	CONCLUSION SECTION
+    %----------------------------------------------------------------------------------------
+    \section{Future Work/Conclusion}
+    \input{sections/conclusion}
+
+    %----------------------------------------------------------------------------------------
+    %	DESIGN SPECIFICATIONS SECTION
+    %----------------------------------------------------------------------------------------
+    \section{Discussion}
+    \input{sections/discussion}
+
+    \vfill
+    \pagebreak
+
+    \addcontentsline{toc}{section}{References}
+
+    % \bibliographystyle{plainnat} 
+    \bibliographystyle{biostyle}
+    \bibliography{references}  %%% Remove comment to use the external .bib file (using bibtex).
+    %%% and comment out the ``thebibliography'' section.
+
+
 
 \end{document}
