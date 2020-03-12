@@ -12,7 +12,30 @@ Quotes must be properly put inside quotation marks (“…”) followed by the s
 
 \subsection{Figures/tables}
 
-Put any figure/table immediately after it is first mentioned or near the text. Do not put all figures/tables at the end of the report. You must insert figure/table caption for each figure and table. All figures and tables must be numbered consecutively; for example, Figure 1, Figure 2, Table 1, Table 2, Figure 3, etc. 
+Put any figure/table immediately after it is first mentioned or near the text. Do not put all figures/tables at the end of the report. You must insert figure/table caption for each figure and table. All figures and tables must be numbered consecutively; for example, Figure \ref{fig:wku} etc. 
 
 
 If you want to insert color figures, please use proper colors and the resolution must be high enough for quality prints. 
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{images/wku.png}
+    \caption{Example figure.}
+    \label{fig:wku}
+\end{figure}
+
+
+\subsection{Lists and Sublists}
+
+\begin{itemize}
+    \item item 1: \lipsum[1-1]
+    \item item 2: \lipsum[2-2]
+    \begin{itemize}
+        \item item 3: \lipsum[3-3]
+        \item item 4: \lipsum[4-4]
+    \end{itemize}
+    \item item 5: \lipsum[1-2]
+\end{itemize}
+
+
+\vfill
